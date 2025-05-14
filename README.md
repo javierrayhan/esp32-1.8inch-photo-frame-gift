@@ -77,9 +77,9 @@ As we step into the next chapter of our lives, **I wanted to leave behind someth
 | EEPROM MOSI          | IO23 (SD0) | SPI MOSI line for EEPROM                        |
 | RGB LED (WS2812B)    | IO25       | Data input for addressable RGB LED              |
 | Buzzer               | IO12        | Output pin to active buzzer                     |
-| Button SW0           | IO15       | Program/Flash button (boot mode)                |
-| Button SW1           | IO13       | User button (general purpose)                   |
-| Button SW2           | IO27       | User button (general purpose)                   |
+| Button SW0 (Pulldown)          | IO15       | Change menu, confirm              |
+| Button SW1 (Pulldown)          | IO13       | Increase button                   |
+| Button SW2 (Pulldown)          | IO27       | Decrease Button                   |
 | USB Type-C Connector | -          | 5V power input via USB                          |
 | Voltage Regulator    | -          | AMS1117-3.3 to supply 3.3V to ESP32 and modules |
 | Debug TX             | IO1 (TXD0) | UART TX for debugging                           |
